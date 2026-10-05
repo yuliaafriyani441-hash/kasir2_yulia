@@ -771,10 +771,6 @@ return [
             'topnav_right' => true,
         ],
         [
-            'type' => 'darkmode-widget',
-            'topnav_right' => true,
-        ],
-        [
             'type' => 'fullscreen-widget',
             'topnav_right' => true,
         ],
@@ -790,26 +786,28 @@ return [
             'can' => 'manage-blog',
         ],
         [
-            'text' => 'pages',
+            'text' => 'Dashboard',
             'url' => 'admin/pages',
-            'icon' => 'bi bi-file-earmark',
+            'icon' => 'far fa-fw fa-file',
             'label' => 4,
             'label_color' => 'success',
         ],
         ['header' => 'account_settings'],
         [
-            'text' => 'profile',
+            'text' => 'Data Master',
             'url' => 'admin/settings',
-            'icon' => 'bi bi-person',
-        ],
-        [
-            'text' => 'change_password',
-            'url' => 'admin/settings',
-            'icon' => 'bi bi-lock',
+            'icon' => 'fas fa-fw fa-user',
+            'submenu' => [
+                [
+                    'text' => 'Data Siswa',
+                    'url' => 'admin/settings',
+                    'icon' => 'bi bi-circle',
+                ]
+            ]
         ],
         [
             'text' => 'multilevel',
-            'icon' => 'bi bi-share',
+            'icon' => 'fas fa-fw fa-share',
             'submenu' => [
                 [
                     'text' => 'level_one',
@@ -848,17 +846,17 @@ return [
         ['header' => 'labels'],
         [
             'text' => 'important',
-            'icon_color' => 'danger',
+            'icon_color' => 'red',
             'url' => '#',
         ],
         [
             'text' => 'warning',
-            'icon_color' => 'warning',
+            'icon_color' => 'yellow',
             'url' => '#',
         ],
         [
             'text' => 'information',
-            'icon_color' => 'info',
+            'icon_color' => 'cyan',
             'url' => '#',
         ],
     ],
