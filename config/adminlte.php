@@ -78,11 +78,11 @@ return [
     */
 
     'logo' => '<b>kasir</b>',
-    'logo_img' => 'vendor/adminlte/dist/img/logoaw.png',
+    'logo_img' => 'vendor/adminlte/dist/img/logoaw1.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
-    'logo_img_alt' => 'logoaw.png',
+    'logo_img_alt' => 'logoaw1.png',
 
     /*
     |--------------------------------------------------------------------------
@@ -98,9 +98,9 @@ return [
     */
 
     'auth_logo' => [
-        'enabled' => false,
+        'enabled' => true,
         'img' => [
-            'path' => 'vendor/adminlte/dist/assets/img/logoaw.png',
+            'path' => 'vendor/adminlte/dist/assets/img/logoaw1.png',
             'alt' => 'Auth Logo',
             'class' => '',
             'width' => 50,
@@ -136,7 +136,7 @@ return [
         'enabled' => true,
         'mode' => 'fullscreen',
         'img' => [
-            'path' => 'vendor/adminlte/dist/assets/img/logoaw.pgn',
+            'path' => 'vendor/adminlte/dist/assets/img/logoaw1.png',
             'alt' => 'AdminLTE Preloader Image',
             'effect' => 'animation__shake',
             'width' => 60,
