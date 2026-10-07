@@ -789,7 +789,7 @@ return [
             'text' => 'Jurusan',
             'url' => 'admin/pages',
             'icon' => 'far fa-fw fa-file',
-            'label' => 4,
+            //'label' => 4,
             'label_color' => 'success',
         ],
 
@@ -797,7 +797,7 @@ return [
             'text' => 'Jenjang',
             'url' => 'admin/pages',
             'icon' => 'far fa-fw fa-file',
-            'label' => 4,
+            //'label' => 4,
             'label_color' => 'success',
         ],
 
@@ -805,7 +805,7 @@ return [
             'text' => 'Kelas',
             'url' => 'admin/pages',
             'icon' => 'far fa-fw fa-file',
-            'label' => 4,
+           // 'label' => 4,
             'label_color' => 'success',
         ],
 
@@ -813,7 +813,7 @@ return [
             'text' => 'Siswa',
             'url' => 'admin/pages',
             'icon' => 'far fa-fw fa-file',
-            'label' => 4,
+            //'label' => 4,
             'label_color' => 'success',
         ],
         ['header' => 'account_settings'],
