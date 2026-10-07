@@ -808,7 +808,7 @@ return [
            // 'label' => 4,
             'label_color' => 'success',
         ],
-
+        
         [
             'text' => 'Siswa',
             'url' => 'admin/pages',
