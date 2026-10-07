@@ -786,7 +786,23 @@ return [
             'can' => 'manage-blog',
         ],
         [
-            'text' => 'Dashboard',
+            'text' => 'Jurusan',
+            'url' => 'admin/pages',
+            'icon' => 'far fa-fw fa-file',
+            'label' => 4,
+            'label_color' => 'success',
+        ],
+
+        [
+            'text' => 'Jenjang',
+            'url' => 'admin/pages',
+            'icon' => 'far fa-fw fa-file',
+            'label' => 4,
+            'label_color' => 'success',
+        ],
+
+         [
+            'text' => 'Kelas',
             'url' => 'admin/pages',
             'icon' => 'far fa-fw fa-file',
             'label' => 4,
