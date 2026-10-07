@@ -12,7 +12,15 @@ class JurusanController extends Controller
      */
     public function index()
     {
-        //
+         //Filter search
+        $jurusans = Jurusan::query()
+            ->when($request->search, function ($query, $search) {
+                $query->where('nama_jurusan', 'like', "%{$search}%")
+                      ->orWhere('kode_jurusan', 'like', "%{$search}%");
+            })
+            ->get();
+
+        return view('jurusan.index', compact('jurusans'));
     }
 
     /**
@@ -20,7 +28,7 @@ class JurusanController extends Controller
      */
     public function create()
     {
-        //
+        return view('jurusan.create');
     }
 
     /**
